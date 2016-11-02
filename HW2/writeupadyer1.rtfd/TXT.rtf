@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red45\green49\blue53;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1.\'a0\cf0 \strokec0 \
+
+\b \cf2 \strokec2 Create your own dataset (at least 10 examples) that is linearly separable.\cf0 \strokec0 \
+\cf2 \strokec2 Now train a Perceptron model.\'a0Provide evidence that Perceptron found a\cf0 \strokec0 \
+\cf2 \strokec2 decision boundary.
+\b0 \cf0 \strokec0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf4 \strokec4 [[1,1,2],[1,2,3],[1,3,4],[1,4,5],[1,1,3],[0,2,1],[0,3,1],[0,3,2],[0,5,1],[0,4,2]]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Screen Shot 2016-09-30 at 1.40.56 PM.png \width8920 \height5880
+}¬}\
+As you can see the Perceptron found a decision boundary. On its first attempt.
+\f0\fs26 \cf4 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 \
+\
+\pard\pardeftab720\sl300\partightenfactor0
+
+\b \cf2 \strokec2 2.\'a0\cf0 \strokec0 \
+\cf2 \strokec2 Create your own small dataset (at least 10 examples) that is\'a0\cf0 \strokec0 \
+\pard\pardeftab720\sl234\partightenfactor0
+\cf2 \strokec2 not\'a0linearly\cf0 \strokec0  
+\fs28 \cf2 \strokec2 seperable.\'a0Now train a Perceptron model.\'a0Did the algorithm converge?\cf0 \strokec0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26 \cf2 \strokec2 Provide evidence.
+\b0 \
+\
+([[1,2,1],[0,5,1],[1,1,3],[1,3,4],[0,5,5],[1,1,1],[0,3,4],[1,3,2],[0,6,1],[1,2,1]])\
+This plot is the output of the Perceptron. It can\'92t separate the data.\cf0 \strokec0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Screen Shot 2016-09-30 at 1.40.54 PM.png \width8760 \height5660
+}¬}\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf4 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\b \cf2 \strokec2 3.\'a0\cf0 \strokec0 \
+\pard\pardeftab720\sl340\partightenfactor0
+
+\fs28 \cf2 \strokec2 Download the Titanic dataset and randomly split it into training (70%)\cf0 \strokec0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26 \cf2 \strokec2 and test (30%) sets.\'a0Train an Adaline model using the training data.\'a0Now\cf0 \strokec0 \
+\pard\pardeftab720\sl340\partightenfactor0
+
+\fs28 \cf2 \strokec2 evaluate it on your test data.\'a0Please report your performance.\'a0You are\cf0 \strokec0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26 \cf2 \strokec2 free to use either the SGD or the batch version of Adaline.
+\b0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Screen Shot 2016-10-01 at 12.07.23 AM.png \width8840 \height12260
+}¬}
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf4 \strokec4 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\b \cf2 \strokec2 4.\'a0\cf0 \strokec0 \
+\pard\pardeftab720\sl340\partightenfactor0
+
+\fs28 \cf2 \strokec2 What were the most predictive features of your Titanic model?\'a0Provide\cf0 \strokec0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26 \cf2 \strokec2 evidence.
+\b0 \
+\
+Sex was the most predictive feature, at least thats what my intuition told me. However I wasn\'92t able to work with it with Adeline due to its low variance (1 or 0) and no linear separability.  I ended up just taking 2 very predictive features class and sibling and I had great success alternating between 65% and 74%. \cf0 \strokec0 \
+}
